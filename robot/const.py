@@ -100,7 +100,7 @@ SWERVE_CANCODER_ID_BACK_RIGHT = 28  # 2
 
 # Other
 
-SWERVE_WHEEL_CIRCUMFERENCE = 2 * math.pi * (4 * 2.54 / 100)
+SWERVE_WHEEL_CIRCUMFERENCE = math.pi * (4 * 2.54 / 100)
 SWERVE_DRIVE_GEAR_RATIO = 6.55  # From belt kit we ordered
 SWERVE_ANGLE_GEAR_RATIO = 10.29  # From Swerve X user guide, for flipped, belt models
 

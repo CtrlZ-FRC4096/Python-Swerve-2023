@@ -53,8 +53,8 @@ class OI:
 				yield
 				def square(x):
 					return abs(x) * x
-				forward_back = -square(self.driver1.LEFT_JOY_Y())
-				left_right = -square(self.driver1.LEFT_JOY_X())
+				forward_back = square(self.driver1.LEFT_JOY_Y())
+				left_right = square(self.driver1.LEFT_JOY_X())
 				if self.driver1.RIGHT_BUMPER():
 					forward_back *= 0.5
 					left_right *= 0.5
